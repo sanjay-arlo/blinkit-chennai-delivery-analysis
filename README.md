@@ -69,13 +69,120 @@ Analyzed delivery performance across 12 dark stores in Chennai to optimize quick
 
 ## 📈 Dashboard Preview
 
-
-
 ![Executive Overview](screenshots/dashboard_overview.png)
-
-
 
 **Interactive Features:**
 - Date range filtering (Nov 2024 - Jan 2025)
 - Store-level drill-down
 - Cross-filtering between visuals
+
+---
+
+## 📂 Project Structure
+
+```
+blinkit-chennai-analysis/
+├── data/
+│   ├── dark_stores.csv           # 12 dark store locations
+│   ├── products.csv               # 290 products across 8 categories
+│   ├── orders.csv                 # 50,000 orders
+│   ├── order_items.csv            # 140,887 order line items
+│   └── store_inventory.csv        # 3,480 inventory records
+├── sql/
+│   └── blinkit_chennai.sql        # Complete schema + views
+├── powerbi/
+│   └── Blinkit_Chennai_Dashboard.pbix
+├── screenshots/
+│   └── dashboard_overview.png
+└── README.md
+```
+
+---
+
+## 🔑 Key Learnings
+
+**SQL Skills:**
+- Window functions (ROW_NUMBER, RANK)
+- CTEs and subqueries
+- JOIN operations across multiple tables
+- Aggregations with GROUP BY and HAVING
+
+**Power BI Skills:**
+- DAX measure creation (DIVIDE, AVERAGEX, FORMAT)
+- Star schema data modeling
+- Single-direction relationships
+- Conditional formatting rules
+
+**Business Analysis:**
+- Identifying operational bottlenecks
+- Root cause analysis for delivery delays
+- Data-driven recommendations
+
+---
+
+## 📊 SQL Query Examples
+
+**Top performing stores by on-time delivery:**
+```sql
+SELECT 
+    store_area,
+    total_orders,
+    on_time_deliveries,
+    ROUND((on_time_deliveries * 100.0 / total_orders), 2) AS on_time_rate
+FROM vw_store_performance
+ORDER BY on_time_rate DESC
+LIMIT 5;
+```
+
+**Critical inventory alerts:**
+```sql
+SELECT 
+    store_area,
+    product_name,
+    current_stock,
+    optimal_stock,
+    days_until_stockout
+FROM vw_inventory_alerts
+WHERE alert_priority = 'Critical'
+ORDER BY days_until_stockout ASC;
+```
+
+---
+
+## 🚀 How to Run
+
+### Prerequisites
+- MySQL 8.0+
+- Power BI Desktop
+- Python 3.8+ (optional, for data generation)
+
+### Setup
+1. **Import SQL schema:**
+   ```bash
+   mysql -u root -p < sql/blinkit_chennai.sql
+   ```
+
+2. **Open Power BI:**
+   - Open `powerbi/Blinkit_Chennai_Dashboard.pbix`
+   - Refresh data connection
+
+3. **Explore dashboard:**
+   - Filter by date range or store
+   - Click visuals to cross-filter
+
+---
+
+## 📫 Contact
+
+**Sanjay** | Chennai, India  
+📧 [sanjayyogesh9@gmail.com]  
+💼 [https://www.linkedin.com/in/sanjay-arlo]  
+🔗 [https://github.com/sanjay-arlo]
+
+**Open to Data Analyst opportunities**
+
+---
+
+## 📝 License
+
+This project is open source and available under the MIT License.
