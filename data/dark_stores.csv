@@ -1,0 +1,13 @@
+store_id,store_name,area,demand_level,latitude,longitude,city,pincode,operational_hours,storage_capacity_sqft,num_delivery_partners,monthly_rent,opened_date,avg_daily_orders
+DS001,T Nagar Hub,T Nagar,High,13.0418,80.2341,Chennai,600001,6:00 AM - 1:00 AM,2246,27,119883,2023-03-15,597
+DS002,Anna Nagar Hub,Anna Nagar,High,13.0878,80.2087,Chennai,600002,6:00 AM - 1:00 AM,2119,30,101640,2023-04-10,601
+DS003,Velachery Hub,Velachery,Very High,12.975,80.2212,Chennai,600003,6:00 AM - 1:00 AM,2672,44,122036,2023-05-20,636
+DS004,Adyar Hub,Adyar,High,13.0067,80.2572,Chennai,600004,6:00 AM - 1:00 AM,2271,31,118172,2023-06-15,523
+DS005,Perungudi Hub,Perungudi,Very High,12.9611,80.2439,Chennai,600005,6:00 AM - 1:00 AM,2714,35,146572,2023-07-25,761
+DS006,Nungambakkam Hub,Nungambakkam,Medium,13.0569,80.2425,Chennai,600006,6:00 AM - 1:00 AM,1886,22,75440,2023-08-10,635
+DS007,Sholinganallur Hub,Sholinganallur,High,12.901,80.2279,Chennai,600007,6:00 AM - 1:00 AM,2270,29,117917,2023-09-05,359
+DS008,Mylapore Hub,Mylapore,Medium,13.0339,80.2619,Chennai,600008,6:00 AM - 1:00 AM,1815,20,77399,2023-10-12,403
+DS009,Porur Hub,Porur,Medium,13.0358,80.1559,Chennai,600009,6:00 AM - 1:00 AM,1995,25,72705,2023-11-08,769
+DS010,Tambaram Hub,Tambaram,High,12.9229,80.1275,Chennai,600010,6:00 AM - 1:00 AM,2085,33,106511,2023-12-15,728
+DS011,Vadapalani Hub,Vadapalani,Medium,13.0502,80.2121,Chennai,600011,6:00 AM - 1:00 AM,1727,24,86615,2024-01-20,664
+DS012,Thiruvanmiyur Hub,Thiruvanmiyur,Medium,12.983,80.2595,Chennai,600012,6:00 AM - 1:00 AM,1567,19,79339,2024-02-18,454

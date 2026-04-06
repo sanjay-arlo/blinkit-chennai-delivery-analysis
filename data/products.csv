@@ -1,0 +1,291 @@
+product_id,product_name,category,price,mrp,shelf_life_days,storage_type,demand_frequency,weight_grams,in_stock
+P0001,Amul Taaza Toned Milk 500ml,"Dairy, Bread & Eggs",28,31.14,10,Refrigerated,High,500,True
+P0002,Amul Taaza Toned Milk 1L,"Dairy, Bread & Eggs",56,61.79,10,Refrigerated,High,200,True
+P0003,Amul Gold Full Cream Milk 500ml,"Dairy, Bread & Eggs",32,35.72,7,Refrigerated,High,500,True
+P0004,Amul Gold Full Cream Milk 1L,"Dairy, Bread & Eggs",64,73.09,7,Refrigerated,High,200,True
+P0005,Heritage Fresh Milk 500ml,"Dairy, Bread & Eggs",30,30.54,10,Refrigerated,High,500,True
+P0006,Nandini Milk 500ml,"Dairy, Bread & Eggs",26,29.49,3,Refrigerated,Medium,500,True
+P0007,Amul Fresh Cream 250ml,"Dairy, Bread & Eggs",85,97.28,10,Refrigerated,High,500,True
+P0008,Amul Masti Curd 400g,"Dairy, Bread & Eggs",32,35.68,5,Refrigerated,High,200,True
+P0009,Mother Dairy Curd 400g,"Dairy, Bread & Eggs",30,31.26,10,Refrigerated,High,200,True
+P0010,Nestle Dahi 400g,"Dairy, Bread & Eggs",35,35.58,3,Refrigerated,High,200,True
+P0011,Amul Salted Butter 100g,"Dairy, Bread & Eggs",56,62.87,7,Refrigerated,High,200,True
+P0012,Amul Salted Butter 500g,"Dairy, Bread & Eggs",270,308.81,3,Refrigerated,Medium,200,True
+P0013,Britannia Butter 100g,"Dairy, Bread & Eggs",54,59.07,5,Refrigerated,High,200,True
+P0014,Amul Cheese Slices 200g,"Dairy, Bread & Eggs",130,146.62,3,Refrigerated,Medium,200,True
+P0015,Britannia Cheese Slices 200g,"Dairy, Bread & Eggs",125,135.0,10,Refrigerated,Medium,200,True
+P0016,Amul Processed Cheese Block 200g,"Dairy, Bread & Eggs",110,113.22,10,Refrigerated,High,200,True
+P0017,Mother Dairy Paneer 200g,"Dairy, Bread & Eggs",95,105.66,3,Refrigerated,Medium,200,True
+P0018,Amul Fresh Paneer 200g,"Dairy, Bread & Eggs",90,101.01,10,Refrigerated,High,200,True
+P0019,Nandini Paneer 200g,"Dairy, Bread & Eggs",85,85.34,5,Refrigerated,High,200,True
+P0020,Farm Fresh White Eggs 6 pcs,"Dairy, Bread & Eggs",48,49.51,3,Refrigerated,High,500,True
+P0021,Farm Fresh Brown Eggs 6 pcs,"Dairy, Bread & Eggs",60,61.18,3,Refrigerated,High,500,True
+P0022,Farm Fresh White Eggs 10 pcs,"Dairy, Bread & Eggs",75,84.81,5,Refrigerated,High,500,True
+P0023,Amul Kool Milk Drink 200ml,"Dairy, Bread & Eggs",20,21.65,10,Refrigerated,High,500,True
+P0024,Amul Lassi 200ml,"Dairy, Bread & Eggs",25,27.87,10,Refrigerated,High,500,True
+P0025,Mother Dairy Mishti Doi 400g,"Dairy, Bread & Eggs",42,42.46,10,Refrigerated,Medium,200,True
+P0026,Britannia Bread Large,"Dairy, Bread & Eggs",40,42.58,3,Refrigerated,High,200,True
+P0027,Modern Bread Sandwich,"Dairy, Bread & Eggs",45,50.81,3,Refrigerated,Medium,200,True
+P0028,Harvest Gold Bread,"Dairy, Bread & Eggs",42,45.76,7,Refrigerated,High,200,True
+P0029,English Oven Brown Bread,"Dairy, Bread & Eggs",50,52.19,3,Refrigerated,High,200,False
+P0030,Onion 1kg,Fruits & Vegetables,35,36.75,2,Ambient,High,1000,True
+P0031,Tomato 1kg,Fruits & Vegetables,45,47.25,2,Ambient,High,1000,True
+P0032,Potato 1kg,Fruits & Vegetables,28,29.4,2,Ambient,High,1000,True
+P0033,Green Chilli 100g,Fruits & Vegetables,15,15.75,4,Ambient,High,1000,True
+P0034,Ginger 200g,Fruits & Vegetables,40,42.0,2,Ambient,High,1000,True
+P0035,Garlic 250g,Fruits & Vegetables,55,57.75,4,Ambient,High,1000,True
+P0036,Coriander Leaves 100g,Fruits & Vegetables,15,15.75,4,Refrigerated,High,1000,True
+P0037,Curry Leaves 100g,Fruits & Vegetables,20,21.0,2,Refrigerated,High,1000,True
+P0038,Lemon 250g (4-5pcs),Fruits & Vegetables,25,26.25,2,Ambient,High,1000,True
+P0039,Carrot 500g,Fruits & Vegetables,30,31.5,3,Ambient,High,500,True
+P0040,Beans 500g,Fruits & Vegetables,45,47.25,3,Ambient,High,500,True
+P0041,Capsicum Green 500g,Fruits & Vegetables,50,52.5,4,Ambient,High,500,True
+P0042,Cabbage 1pc,Fruits & Vegetables,35,36.75,3,Ambient,High,1000,True
+P0043,Cauliflower 1pc,Fruits & Vegetables,40,42.0,2,Ambient,High,1000,True
+P0044,Brinjal 500g,Fruits & Vegetables,35,36.75,4,Ambient,High,500,True
+P0045,Ladies Finger 500g,Fruits & Vegetables,40,42.0,4,Ambient,High,500,True
+P0046,Beetroot 500g,Fruits & Vegetables,35,36.75,2,Ambient,High,500,True
+P0047,Radish White 500g,Fruits & Vegetables,30,31.5,3,Ambient,High,500,True
+P0048,Bottle Gourd 1pc,Fruits & Vegetables,35,36.75,3,Ambient,High,1000,True
+P0049,Bitter Gourd 500g,Fruits & Vegetables,45,47.25,2,Ambient,High,500,True
+P0050,Banana Robusta 6pcs,Fruits & Vegetables,35,36.75,4,Ambient,High,1000,True
+P0051,Apple Shimla 4pcs,Fruits & Vegetables,140,147.0,3,Ambient,High,1000,True
+P0052,Pomegranate 1pc,Fruits & Vegetables,85,89.25,4,Ambient,High,1000,True
+P0053,Orange 500g,Fruits & Vegetables,50,52.5,3,Ambient,High,500,True
+P0054,Sweet Lime 500g,Fruits & Vegetables,45,47.25,2,Ambient,High,500,True
+P0055,Watermelon 1pc (3-4kg),Fruits & Vegetables,80,84.0,2,Ambient,High,1000,True
+P0056,Papaya 1pc,Fruits & Vegetables,45,47.25,2,Ambient,High,1000,True
+P0057,Grapes Green 500g,Fruits & Vegetables,90,94.5,2,Ambient,High,500,True
+P0058,Mango (Seasonal),Fruits & Vegetables,120,126.0,3,Ambient,High,1000,True
+P0059,Pineapple 1pc,Fruits & Vegetables,55,57.75,3,Ambient,High,1000,True
+P0060,Coca Cola 750ml,Cold Drinks & Juices,40,40.51,180,Refrigerated,High,750,True
+P0061,Coca Cola 2.25L,Cold Drinks & Juices,95,102.42,90,Refrigerated,Medium,1000,True
+P0062,Pepsi 750ml,Cold Drinks & Juices,40,43.96,180,Refrigerated,Medium,750,True
+P0063,Pepsi 2L,Cold Drinks & Juices,90,92.15,180,Refrigerated,High,1000,True
+P0064,Sprite 750ml,Cold Drinks & Juices,40,41.32,90,Refrigerated,Medium,750,True
+P0065,Thumbs Up 750ml,Cold Drinks & Juices,40,42.68,180,Refrigerated,Medium,750,True
+P0066,Fanta 750ml,Cold Drinks & Juices,40,41.4,90,Refrigerated,High,750,True
+P0067,Mountain Dew 750ml,Cold Drinks & Juices,40,43.53,90,Refrigerated,High,750,True
+P0068,Thums Up 2.25L,Cold Drinks & Juices,95,103.4,180,Refrigerated,High,1000,True
+P0069,Bisleri Water 1L,Cold Drinks & Juices,20,21.38,90,Ambient,High,1000,True
+P0070,Bisleri Water 2L,Cold Drinks & Juices,35,35.87,90,Ambient,High,1000,True
+P0071,Kinley Water 1L,Cold Drinks & Juices,20,21.46,365,Ambient,High,1000,True
+P0072,Aquafina Water 1L,Cold Drinks & Juices,20,20.15,365,Ambient,Medium,1000,True
+P0073,Red Bull Energy Drink 250ml,Cold Drinks & Juices,125,132.02,180,Refrigerated,Medium,750,True
+P0074,Sting Energy Drink 250ml,Cold Drinks & Juices,20,20.95,365,Refrigerated,Medium,750,True
+P0075,Monster Energy Drink 500ml,Cold Drinks & Juices,150,156.02,365,Refrigerated,Medium,750,True
+P0076,Real Fruit Juice Mixed Fruit 1L,Cold Drinks & Juices,130,137.32,180,Refrigerated,Medium,1000,True
+P0077,Real Fruit Juice Mango 1L,Cold Drinks & Juices,130,133.69,180,Refrigerated,High,1000,True
+P0078,Tropicana Orange 1L,Cold Drinks & Juices,145,156.72,180,Refrigerated,High,1000,True
+P0079,Tropicana Mixed Fruit 1L,Cold Drinks & Juices,145,145.19,90,Refrigerated,High,1000,False
+P0080,Minute Maid Pulpy Orange 400ml,Cold Drinks & Juices,45,45.78,365,Refrigerated,Medium,750,True
+P0081,Frooti Mango Drink 160ml,Cold Drinks & Juices,10,10.76,180,Refrigerated,High,750,True
+P0082,Frooti Mango Drink 1.2L,Cold Drinks & Juices,60,62.1,365,Refrigerated,High,1000,True
+P0083,Maaza Mango Drink 1.2L,Cold Drinks & Juices,60,61.23,90,Refrigerated,High,1000,True
+P0084,Paper Boat Aam Panna 250ml,Cold Drinks & Juices,40,41.57,90,Refrigerated,Medium,750,True
+P0085,Paper Boat Jaljeera 250ml,Cold Drinks & Juices,40,41.27,365,Refrigerated,High,750,True
+P0086,Rasna Orange 750ml,Cold Drinks & Juices,35,38.0,90,Refrigerated,High,750,True
+P0087,Tang Instant Drink 750g,Cold Drinks & Juices,320,328.9,180,Refrigerated,Medium,1000,True
+P0088,Nestle Iced Tea Lemon 500ml,Cold Drinks & Juices,40,40.54,90,Refrigerated,High,750,True
+P0089,Lays Classic Salted 50g,Snacks & Munchies,20,20.86,180,Ambient,High,100,True
+P0090,Lays Classic Salted 90g,Snacks & Munchies,35,36.74,270,Ambient,Medium,100,True
+P0091,Lays American Style Cream & Onion 50g,Snacks & Munchies,20,21.02,270,Ambient,High,100,True
+P0092,Kurkure Masala Munch 90g,Snacks & Munchies,20,20.7,180,Ambient,High,100,True
+P0093,Kurkure Solid Masti 90g,Snacks & Munchies,20,20.95,90,Ambient,Medium,100,False
+P0094,Bingo Mad Angles 72g,Snacks & Munchies,20,20.36,270,Ambient,High,100,True
+P0095,Doritos Nacho Cheese 150g,Snacks & Munchies,75,76.68,270,Ambient,High,100,True
+P0096,Pringles Original 107g,Snacks & Munchies,130,135.33,270,Ambient,High,100,True
+P0097,Haldirams Aloo Bhujia 200g,Snacks & Munchies,50,51.26,180,Ambient,High,100,True
+P0098,Haldirams Moong Dal 200g,Snacks & Munchies,55,57.26,270,Ambient,High,100,True
+P0099,Haldirams Sev Bhujia 400g,Snacks & Munchies,95,98.02,270,Ambient,High,100,True
+P0100,Bikaji Bhujia 200g,Snacks & Munchies,48,49.14,270,Ambient,High,100,True
+P0101,Parle G Biscuits 376g,Snacks & Munchies,40,40.73,180,Ambient,High,100,True
+P0102,Britannia Good Day Butter 600g,Snacks & Munchies,80,83.88,180,Ambient,High,100,True
+P0103,Britannia Marie Gold 250g,Snacks & Munchies,32,33.92,90,Ambient,High,100,True
+P0104,Sunfeast Dark Fantasy 300g,Snacks & Munchies,110,111.79,270,Ambient,High,100,True
+P0105,Oreo Original 300g,Snacks & Munchies,40,40.64,270,Ambient,High,100,True
+P0106,Hide & Seek 240g,Snacks & Munchies,50,53.95,180,Ambient,High,100,True
+P0107,Monaco Classic 200g,Snacks & Munchies,25,25.01,270,Ambient,Medium,100,True
+P0108,Parle 20-20 Cashew Cookies 400g,Snacks & Munchies,55,56.15,270,Ambient,Medium,100,True
+P0109,Cadbury Dairy Milk Silk 60g,Snacks & Munchies,100,104.79,180,Ambient,High,100,True
+P0110,KitKat 4 Finger 37.3g,Snacks & Munchies,40,41.76,90,Ambient,High,100,False
+P0111,5 Star Chocolate 40g,Snacks & Munchies,25,26.32,90,Ambient,High,100,True
+P0112,Snickers 50g,Snacks & Munchies,40,41.55,270,Ambient,High,100,True
+P0113,Munch Chocolate 30g,Snacks & Munchies,20,20.25,270,Ambient,High,100,True
+P0114,Too Yumm Veggie Stix 56g,Snacks & Munchies,35,36.4,270,Ambient,High,100,True
+P0115,Act II Popcorn Butter 60g,Snacks & Munchies,50,52.48,270,Ambient,High,100,True
+P0116,Cornitos Nacho Chips 150g,Snacks & Munchies,70,75.19,90,Ambient,Medium,100,True
+P0117,Maggi Masala Noodles 70g,Breakfast & Instant Food,14,14.27,270,Ambient,High,500,True
+P0118,Maggi Masala Noodles 280g (4pack),Breakfast & Instant Food,52,54.9,270,Ambient,High,500,True
+P0119,Maggi Atta Noodles 320g,Breakfast & Instant Food,54,56.12,270,Ambient,Medium,500,True
+P0120,Top Ramen Curry 280g,Breakfast & Instant Food,48,50.02,270,Ambient,Medium,500,True
+P0121,Yippee Magic Masala 240g,Breakfast & Instant Food,42,45.75,270,Ambient,Medium,500,True
+P0122,Sunfeast Yippee 420g,Breakfast & Instant Food,60,64.99,180,Ambient,High,500,True
+P0123,Knorr Chicken Soup 40g,Breakfast & Instant Food,35,35.75,270,Ambient,High,500,True
+P0124,Knorr Hot & Sour Veg Soup 42g,Breakfast & Instant Food,35,37.19,365,Ambient,High,500,True
+P0125,Maggi Hot Heads 73g,Breakfast & Instant Food,25,26.4,270,Ambient,High,500,True
+P0126,Pasta Treat Penne 500g,Breakfast & Instant Food,85,87.52,180,Ambient,High,500,True
+P0127,MTR Idli Mix 500g,Breakfast & Instant Food,75,75.83,180,Ambient,Medium,500,True
+P0128,MTR Dosa Mix 500g,Breakfast & Instant Food,75,80.23,180,Ambient,High,500,True
+P0129,MTR Rava Idli 500g,Breakfast & Instant Food,70,74.17,180,Ambient,Medium,500,True
+P0130,ID Fresh Idli Batter 1kg,Breakfast & Instant Food,75,79.94,180,Ambient,Medium,500,True
+P0131,ID Fresh Dosa Batter 1kg,Breakfast & Instant Food,75,77.11,180,Ambient,Medium,500,True
+P0132,Saffola Masala Oats 400g,Breakfast & Instant Food,145,155.68,180,Ambient,High,500,True
+P0133,Quaker Oats 1kg,Breakfast & Instant Food,185,188.68,180,Ambient,High,500,True
+P0134,Kelloggs Corn Flakes 875g,Breakfast & Instant Food,340,364.24,180,Ambient,High,500,True
+P0135,Kelloggs Chocos 375g,Breakfast & Instant Food,185,188.02,180,Ambient,High,500,True
+P0136,Nestle Ceregrow 300g,Breakfast & Instant Food,395,397.29,365,Ambient,Medium,500,True
+P0137,MTR Vermicelli Roasted 440g,Breakfast & Instant Food,55,59.94,180,Ambient,Medium,500,True
+P0138,Bambino Vermicelli 175g,Breakfast & Instant Food,25,26.54,180,Ambient,High,500,True
+P0139,Haldiram Moong Dal 200g,Breakfast & Instant Food,55,55.96,365,Ambient,High,500,True
+P0140,McCain French Fries 420g,Breakfast & Instant Food,145,153.11,270,Ambient,High,500,True
+P0141,McCain Veggie Fingers 360g,Breakfast & Instant Food,180,184.32,180,Ambient,High,500,True
+P0142,Aashirvaad Atta 5kg,"Atta, Rice & Dal",240,250.24,365,Ambient,High,1000,True
+P0143,Aashirvaad Atta 10kg,"Atta, Rice & Dal",475,476.16,365,Ambient,High,1000,True
+P0144,Fortune Chakki Fresh Atta 5kg,"Atta, Rice & Dal",235,238.88,270,Ambient,High,1000,True
+P0145,Pillsbury Chakki Fresh Atta 5kg,"Atta, Rice & Dal",240,240.39,365,Ambient,High,1000,True
+P0146,India Gate Basmati Rice 1kg,"Atta, Rice & Dal",190,190.84,180,Ambient,Medium,1000,True
+P0147,India Gate Basmati Rice 5kg,"Atta, Rice & Dal",900,939.68,180,Ambient,High,1000,True
+P0148,Daawat Basmati Rice 1kg,"Atta, Rice & Dal",180,188.03,270,Ambient,High,1000,True
+P0149,Fortune Biryani Special Basmati 1kg,"Atta, Rice & Dal",170,176.32,270,Ambient,Medium,1000,True
+P0150,Sona Masoori Rice 5kg,"Atta, Rice & Dal",280,292.96,270,Ambient,High,1000,False
+P0151,Ponni Boiled Rice 5kg,"Atta, Rice & Dal",250,258.69,270,Ambient,High,1000,True
+P0152,Tata Sampann Toor Dal 1kg,"Atta, Rice & Dal",160,161.85,365,Ambient,High,1000,True
+P0153,Tata Sampann Moong Dal 500g,"Atta, Rice & Dal",85,88.01,180,Ambient,Medium,500,True
+P0154,Tata Sampann Chana Dal 1kg,"Atta, Rice & Dal",155,159.67,180,Ambient,High,1000,True
+P0155,Tata Sampann Masoor Dal 500g,"Atta, Rice & Dal",75,76.52,270,Ambient,High,500,True
+P0156,Tata Sampann Urad Dal 500g,"Atta, Rice & Dal",90,90.24,365,Ambient,High,500,True
+P0157,Rajma 500g,"Atta, Rice & Dal",110,115.12,180,Ambient,High,500,True
+P0158,Kabuli Chana 500g,"Atta, Rice & Dal",95,97.52,365,Ambient,High,500,True
+P0159,Tata Salt 1kg,"Atta, Rice & Dal",22,22.43,180,Ambient,Medium,1000,True
+P0160,Tata Salt Lite 1kg,"Atta, Rice & Dal",52,53.74,180,Ambient,High,1000,True
+P0161,Catch Salt 1kg,"Atta, Rice & Dal",20,20.32,365,Ambient,Medium,1000,True
+P0162,Sugar 1kg,"Atta, Rice & Dal",45,46.25,270,Ambient,High,1000,True
+P0163,Brown Sugar 500g,"Atta, Rice & Dal",50,51.63,180,Ambient,High,500,True
+P0164,Jaggery Powder 500g,"Atta, Rice & Dal",65,66.04,180,Ambient,High,500,False
+P0165,Rava Medium 500g,"Atta, Rice & Dal",35,36.73,365,Ambient,High,500,True
+P0166,Poha Thick 500g,"Atta, Rice & Dal",45,47.16,270,Ambient,High,500,True
+P0167,Sabudana 500g,"Atta, Rice & Dal",75,78.22,365,Ambient,High,500,True
+P0168,MDH Deggi Mirch 100g,"Masala, Oil & More",85,87.13,270,Ambient,Medium,500,True
+P0169,MDH Garam Masala 100g,"Masala, Oil & More",90,92.37,270,Ambient,High,500,True
+P0170,MDH Chana Masala 100g,"Masala, Oil & More",85,86.14,540,Ambient,Low,500,True
+P0171,Everest Turmeric Powder 200g,"Masala, Oil & More",95,95.65,270,Ambient,High,500,True
+P0172,Everest Red Chilli Powder 200g,"Masala, Oil & More",105,111.92,365,Ambient,Medium,500,True
+P0173,Everest Coriander Powder 200g,"Masala, Oil & More",65,68.28,270,Ambient,Medium,500,True
+P0174,Catch Cumin Powder 100g,"Masala, Oil & More",70,70.26,365,Ambient,High,500,True
+P0175,Catch Chat Masala 100g,"Masala, Oil & More",60,61.89,365,Ambient,High,500,True
+P0176,Ching Secret Manchurian 60g,"Masala, Oil & More",65,69.08,540,Ambient,Low,500,True
+P0177,Maggi Magic Cubes 40g,"Masala, Oil & More",20,20.94,540,Ambient,Medium,500,True
+P0178,Kissan Fresh Tomato Ketchup 900g,"Masala, Oil & More",120,129.12,270,Ambient,High,500,True
+P0179,Kissan Tomato Sauce 1kg,"Masala, Oil & More",125,133.28,270,Ambient,High,500,True
+P0180,Maggi Hot & Sweet Sauce 1kg,"Masala, Oil & More",140,150.4,365,Ambient,High,500,True
+P0181,Fortune Sunflower Oil 1L,"Masala, Oil & More",160,162.44,270,Ambient,Low,500,False
+P0182,Fortune Refined Oil 5L,"Masala, Oil & More",750,799.93,540,Ambient,Medium,500,True
+P0183,Sundrop Sunflower Oil 1L,"Masala, Oil & More",155,159.6,270,Ambient,Medium,500,True
+P0184,Dhara Refined Oil 1L,"Masala, Oil & More",150,158.56,270,Ambient,Medium,500,True
+P0185,Fortune Mustard Oil 1L,"Masala, Oil & More",185,185.02,270,Ambient,High,500,True
+P0186,KS Gingelly Oil 500ml,"Masala, Oil & More",200,212.9,365,Ambient,Medium,500,True
+P0187,Parachute Coconut Oil 500ml,"Masala, Oil & More",195,196.33,270,Ambient,High,500,True
+P0188,Saffola Gold Oil 1L,"Masala, Oil & More",250,250.27,365,Ambient,High,500,True
+P0189,Ghee 500ml,"Masala, Oil & More",295,312.54,365,Ambient,Low,500,True
+P0190,Amul Pure Ghee 500ml,"Masala, Oil & More",340,367.05,365,Ambient,Medium,500,True
+P0191,Dalda Vanaspati 1L,"Masala, Oil & More",200,204.8,365,Ambient,High,500,True
+P0192,Nutella Hazelnut Spread 350g,Sauces & Spreads,385,397.62,365,Ambient,Medium,300,True
+P0193,Kissan Mixed Fruit Jam 500g,Sauces & Spreads,140,148.36,270,Ambient,Medium,300,True
+P0194,Kissan Pineapple Jam 500g,Sauces & Spreads,135,136.98,270,Ambient,Medium,300,True
+P0195,Mapro Mango Jam 500g,Sauces & Spreads,155,160.39,270,Ambient,Low,300,True
+P0196,Hersheys Chocolate Syrup 623g,Sauces & Spreads,325,354.83,180,Ambient,Medium,300,True
+P0197,Veeba Mayonnaise 250g,Sauces & Spreads,85,90.36,365,Ambient,Low,300,True
+P0198,Funfoods Peri Peri Sauce 325g,Sauces & Spreads,130,135.64,180,Ambient,Medium,300,True
+P0199,Veeba Sandwich Spread 275g,Sauces & Spreads,90,97.78,180,Ambient,Medium,300,True
+P0200,Ching Red Chilli Sauce 680g,Sauces & Spreads,115,123.91,270,Ambient,Low,300,True
+P0201,Ching Green Chilli Sauce 190g,Sauces & Spreads,60,65.31,270,Ambient,Medium,300,False
+P0202,Del Monte Pasta Sauce 400g,Sauces & Spreads,145,153.53,365,Ambient,Low,300,True
+P0203,Maggi Pichkoo 90g,Sauces & Spreads,45,46.39,365,Ambient,Medium,300,True
+P0204,Tata Tea Gold 1kg,"Tea, Coffee & Health Drinks",490,510.49,365,Ambient,High,500,True
+P0205,Tata Tea Premium 1kg,"Tea, Coffee & Health Drinks",460,483.18,540,Ambient,Medium,500,True
+P0206,Red Label Natural Care 1kg,"Tea, Coffee & Health Drinks",440,467.88,540,Ambient,Medium,500,True
+P0207,Brooke Bond Taj Mahal 1kg,"Tea, Coffee & Health Drinks",520,534.46,730,Ambient,High,500,True
+P0208,Society Tea 1kg,"Tea, Coffee & Health Drinks",380,403.66,365,Ambient,High,500,True
+P0209,Nescafe Classic 50g,"Tea, Coffee & Health Drinks",215,226.12,365,Ambient,High,500,True
+P0210,Bru Instant Coffee 50g,"Tea, Coffee & Health Drinks",175,188.04,365,Ambient,High,500,True
+P0211,Nescafe Sunrise Premium 50g,"Tea, Coffee & Health Drinks",145,152.8,540,Ambient,High,500,True
+P0212,Bru Gold 100g,"Tea, Coffee & Health Drinks",345,349.12,730,Ambient,High,500,True
+P0213,Horlicks Classic Malt 500g,"Tea, Coffee & Health Drinks",285,300.5,365,Ambient,Medium,500,True
+P0214,Boost Health Drink 500g,"Tea, Coffee & Health Drinks",265,272.63,540,Ambient,High,500,True
+P0215,Complan Chocolate 500g,"Tea, Coffee & Health Drinks",360,367.32,365,Ambient,Medium,500,True
+P0216,Bournvita 500g,"Tea, Coffee & Health Drinks",250,261.43,540,Ambient,High,500,True
+P0217,Milo 400g,"Tea, Coffee & Health Drinks",245,245.18,730,Ambient,Medium,500,True
+P0218,Proteinex Powder 250g,"Tea, Coffee & Health Drinks",285,297.59,730,Ambient,High,500,True
+P0219,Green Tea 100 Bags,"Tea, Coffee & Health Drinks",350,360.71,540,Ambient,High,500,True
+P0220,Lipton Green Tea 25 Bags,"Tea, Coffee & Health Drinks",125,128.86,365,Ambient,High,500,True
+P0221,Vim Dishwash Gel 750ml,Cleaning & Household,95,103.77,730,Ambient,High,500,True
+P0222,Vim Dishwash Bar 600g,Cleaning & Household,55,55.01,730,Ambient,Medium,500,True
+P0223,Pril Dishwash Liquid 750ml,Cleaning & Household,105,106.19,730,Ambient,High,500,True
+P0224,Lizol Floor Cleaner 975ml,Cleaning & Household,185,188.93,730,Ambient,Low,500,True
+P0225,Harpic Toilet Cleaner 1L,Cleaning & Household,165,178.61,730,Ambient,Medium,500,True
+P0226,Domex Toilet Cleaner 1L,Cleaning & Household,135,135.85,730,Ambient,High,500,True
+P0227,Colin Glass Cleaner 500ml,Cleaning & Household,155,155.35,730,Ambient,Medium,500,True
+P0228,Surf Excel Matic 2kg,Cleaning & Household,365,396.52,730,Ambient,Low,500,True
+P0229,Ariel Matic 2kg,Cleaning & Household,395,414.52,730,Ambient,Medium,500,True
+P0230,Tide Plus 2kg,Cleaning & Household,285,308.72,730,Ambient,High,500,True
+P0231,Comfort Fabric Conditioner 860ml,Cleaning & Household,195,210.66,730,Ambient,Medium,500,True
+P0232,Rin Detergent Bar 250g,Cleaning & Household,35,37.85,730,Ambient,Medium,500,True
+P0233,Godrej aer Spray 240ml,Cleaning & Household,199,213.18,730,Ambient,Low,500,True
+P0234,Good Knight Activ+ Refill 45ml,Cleaning & Household,115,126.35,730,Ambient,High,500,True
+P0235,All Out Refill 45ml,Cleaning & Household,95,101.55,730,Ambient,High,500,False
+P0236,Mortein Insect Spray 425ml,Cleaning & Household,225,228.36,730,Ambient,Medium,500,True
+P0237,Hit Cockroach Killer 625ml,Cleaning & Household,245,245.25,730,Ambient,High,500,True
+P0238,Scotch Brite Scrub Pad 3pc,Cleaning & Household,75,75.79,730,Ambient,High,500,True
+P0239,Savlon Handwash 750ml,Cleaning & Household,135,146.95,730,Ambient,High,500,True
+P0240,Dettol Handwash 750ml,Cleaning & Household,155,159.68,730,Ambient,Low,500,True
+P0241,Origami Tissues 100 Pulls,Cleaning & Household,45,49.0,730,Ambient,Medium,500,True
+P0242,Dettol Soap 125g (4 pack),Personal Care,145,151.35,540,Ambient,High,200,True
+P0243,Lifebuoy Soap 125g (4 pack),Personal Care,115,119.17,540,Ambient,High,200,True
+P0244,Dove Soap 125g (3 pack),Personal Care,180,200.29,365,Ambient,Medium,200,True
+P0245,Pears Soap 125g (3 pack),Personal Care,150,162.55,730,Ambient,High,200,False
+P0246,Lux Soap 125g (3 pack),Personal Care,125,138.99,540,Ambient,High,200,True
+P0247,Clinic Plus Shampoo 650ml,Personal Care,265,291.67,365,Ambient,Low,200,True
+P0248,Pantene Shampoo 650ml,Personal Care,385,397.99,540,Ambient,High,200,True
+P0249,Dove Shampoo 650ml,Personal Care,425,471.72,365,Ambient,Medium,200,True
+P0250,Head & Shoulders 650ml,Personal Care,485,508.93,365,Ambient,High,200,True
+P0251,Sunsilk Shampoo 650ml,Personal Care,295,316.28,365,Ambient,High,200,True
+P0252,Colgate Total 300g,Personal Care,185,201.19,730,Ambient,Medium,200,True
+P0253,Colgate Maxfresh 150g,Personal Care,105,110.28,730,Ambient,High,200,True
+P0254,Pepsodent 200g,Personal Care,85,85.59,365,Ambient,High,200,True
+P0255,Sensodyne Toothpaste 150g,Personal Care,265,282.58,365,Ambient,Medium,200,True
+P0256,Oral B Toothbrush,Personal Care,95,97.59,540,Ambient,High,200,False
+P0257,Gillette Shaving Cream 418g,Personal Care,265,275.1,540,Ambient,Medium,200,True
+P0258,Gillette Mach 3 Razor,Personal Care,285,297.58,540,Ambient,High,200,True
+P0259,Veet Hair Removal Cream 100g,Personal Care,215,231.11,730,Ambient,High,200,True
+P0260,Nivea Body Lotion 400ml,Personal Care,295,327.31,730,Ambient,High,200,True
+P0261,Vaseline Petroleum Jelly 100ml,Personal Care,105,117.32,540,Ambient,High,200,True
+P0262,Ponds Face Cream 100ml,Personal Care,235,235.98,730,Ambient,Medium,200,True
+P0263,Fair & Lovely 80g,Personal Care,175,181.71,730,Ambient,High,200,True
+P0264,Garnier Face Wash 100g,Personal Care,145,149.69,540,Ambient,Medium,200,True
+P0265,Lakmé Face Cream 60g,Personal Care,295,320.63,365,Ambient,High,200,True
+P0266,Johnson Baby Powder 400g,Personal Care,285,311.12,730,Ambient,High,200,True
+P0267,Dettol Handwash Refill 750ml,Personal Care,145,153.27,730,Ambient,High,200,True
+P0268,Savlon Antiseptic Liquid 500ml,Personal Care,165,177.44,730,Ambient,High,200,False
+P0269,Band Aid 10pc,Personal Care,55,57.49,540,Ambient,Medium,200,True
+P0270,Vicks VapoRub 50ml,Personal Care,145,156.39,540,Ambient,High,200,True
+P0271,Dettol Antiseptic Liquid 550ml,Personal Care,195,202.72,365,Ambient,High,200,True
+P0272,Cotton Buds 100pc,Personal Care,45,45.36,730,Ambient,High,200,True
+P0273,Whisper Ultra XL 15 Pads,Personal Care,185,197.78,365,Ambient,Medium,200,True
+P0274,Stayfree Secure XL 20 Pads,Personal Care,195,209.4,365,Ambient,High,200,True
+P0275,Sanfe Sanitary Napkins 10pc,Personal Care,155,166.68,365,Ambient,Medium,200,True
+P0276,Pampers Baby Diapers S 20pc,Baby Care,495,513.33,365,Ambient,Low,300,True
+P0277,Pampers Baby Diapers M 18pc,Baby Care,595,619.61,365,Ambient,Medium,300,True
+P0278,Pampers Baby Diapers L 16pc,Baby Care,695,737.76,365,Ambient,Low,300,True
+P0279,Huggies Diapers S 22pc,Baby Care,485,526.4,540,Ambient,Medium,300,True
+P0280,Mamy Poko Pants M 20pc,Baby Care,575,632.47,540,Ambient,Medium,300,True
+P0281,Johnson Baby Soap 100g,Baby Care,55,57.7,540,Ambient,Medium,300,True
+P0282,Johnson Baby Shampoo 200ml,Baby Care,175,185.91,540,Ambient,Medium,300,True
+P0283,Johnson Baby Lotion 200ml,Baby Care,195,209.0,540,Ambient,Low,300,True
+P0284,Johnson Baby Powder 200g,Baby Care,185,191.36,365,Ambient,Low,300,True
+P0285,Himalaya Baby Lotion 200ml,Baby Care,165,167.28,365,Ambient,Low,300,True
+P0286,Cerelac Wheat 300g,Baby Care,185,193.62,365,Ambient,Low,300,True
+P0287,Cerelac Multi Grain 300g,Baby Care,195,196.49,365,Ambient,Medium,300,True
+P0288,Lactogen 1 (0-6 months) 400g,Baby Care,495,519.94,540,Ambient,Medium,300,True
+P0289,Farex Baby Food 300g,Baby Care,175,184.45,365,Ambient,Medium,300,True
+P0290,Himalaya Baby Wipes 72pc,Baby Care,165,169.08,365,Ambient,Medium,300,True
