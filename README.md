@@ -1,155 +1,78 @@
 # Blinkit Chennai - Quick Commerce Delivery Optimization
 
-**End-to-end analytics project analyzing 50,000 delivery orders to identify operational bottlenecks in 10-minute delivery operations.**
+**Portfolio analytics project analyzing a synthetic 50,000-order Chennai quick-commerce dataset to demonstrate operational analysis, SQL modeling, and dashboarding.**
+
+> **Data honesty:** the dataset is synthetically generated for portfolio demonstration. The findings below are illustrative and must not be interpreted as actual Blinkit operating metrics or forecasts.
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
-Analyzed delivery performance across 12 dark stores in Chennai to optimize quick commerce operations. Used Python for data generation, MySQL for storage, SQL for analysis, and Power BI for visualization.
+Analyzed delivery performance across 12 illustrative dark stores in Chennai to demonstrate a business-analytics workflow: data generation → MySQL modeling → SQL analysis → Power BI reporting → operational recommendations.
 
 **Tech Stack:** Python | MySQL | SQL | Power BI | DAX
 
----
+## Key Findings from the Synthetic Dataset
 
-## 🎯 Key Findings
+- **45% orders meet the illustrative 10-minute SLA** (target used in the exercise: 70%+)
+- **T Nagar & Velachery show 18+ minute average delivery times** in the synthetic data
+- **Peak hours (7-9 PM) show materially higher delivery times** than the morning period
+- **245 high-demand products are flagged as out of stock** in the synthetic inventory model
+- **₹4.8L is represented as illustrative overstock value** in the synthetic dataset
 
-### Delivery Performance
-- **45% orders meet 10-minute SLA** (target: 70%+)
-- **T Nagar & Velachery average 18+ mins** delivery time
-- **Peak hours (7-9 PM) show 2× delivery time** vs morning
+These are scenario-analysis outputs, not real Blinkit performance figures.
 
-### Inventory Issues
-- **245 high-demand products out of stock**
-- **₹4.8L capital locked in overstocked items**
-- **Dairy & vegetables drive 35% of stockouts**
+## Business Recommendations
 
-### Revenue Insights
-- **Velachery & Perungudi generate 40% of total revenue**
-- **Weekend orders 35% higher** than weekdays
-- **UPI dominates at 68%** of payment methods
+Recommendations are framed as analytical hypotheses to test rather than guaranteed business outcomes:
 
----
+1. Evaluate additional capacity in high-delay areas and validate the effect with a location/network model.
+2. Test predictive inventory policies for categories with repeated stockout signals.
+3. Model staffing and courier capacity for the 7-9 PM peak period.
+4. Reallocate or liquidate selected overstock only after validating margin, shelf-life and demand assumptions.
 
-## 💡 Business Recommendations
-
-1. **Add 2 dark stores in T Nagar & Adyar** → Reduce delivery time 4-5 mins
-2. **Implement predictive inventory** for dairy/vegetables → Reduce stockouts 40%
-3. **Increase delivery capacity 7-9 PM** → Improve on-time to 70%+
-4. **Liquidate overstocked items** → Reallocate ₹4.8L to high-demand products
-
----
-
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Data Generation (Python)
 - Synthetic dataset: 50,000 orders, 12 stores, 290 products
-- Realistic patterns: peak hours, demand levels, delivery times
+- Controlled patterns for peak hours, demand levels and delivery times
 - Libraries: pandas, numpy, datetime
 
 ### Database Design (MySQL)
-- Star schema with 5 tables
-- 8 optimized SQL views for analysis
-- Proper indexing and foreign key constraints
+- Star-style analytical schema
+- SQL views for repeatable reporting
+- Indexes and foreign-key relationships where appropriate
 
 ### SQL Analysis
-- 20 business queries covering:
-  - Delivery performance metrics
-  - Inventory health analysis
-  - Revenue trends by store/category
-  - Peak hour demand patterns
+- Delivery performance metrics
+- Inventory health analysis
+- Revenue trends by store/category
+- Peak-hour demand patterns
 
 ### Power BI Dashboard
-- Single-page executive dashboard (1280×720)
-- 9 DAX measures with proper formatting
-- 5 relationships (star schema, single direction)
-- Conditional formatting on delivery time performance
+- Executive reporting layout
+- DAX measures
+- Store/date filtering and cross-filtering
 
----
-
-## 📈 Dashboard Preview
+## Dashboard Preview
 
 ![Executive Overview](screenshots/dashboard_overview.png)
 
-**Interactive Features:**
-- Date range filtering (Nov 2024 - Jan 2025)
-- Store-level drill-down
-- Cross-filtering between visuals
+## Project Structure
 
----
-
-## 📂 Project Structure
-
-```
-blinkit-chennai-analysis/
+```text
+blinkit-chennai-delivery-analysis/
 ├── data/
-│   ├── dark_stores.csv           # 12 dark store locations
-│   ├── products.csv               # 290 products across 8 categories
-│   ├── orders.csv                 # 50,000 orders
-│   ├── order_items.csv            # 140,887 order line items
-│   └── store_inventory.csv        # 3,480 inventory records
 ├── sql/
-│   └── blinkit_chennai.sql        # Complete schema + views
+│   └── blinkit_chennai.zip
 ├── powerbi/
-│   └── Blinkit_Chennai_Dashboard.pbix
 ├── screenshots/
-│   └── dashboard_overview.png
 └── README.md
 ```
 
----
+> **Setup note:** the committed SQL artifact is currently `sql/blinkit_chennai.zip`, not `sql/blinkit_chennai.sql`. Extract the archive first or replace it with the plain `.sql` source file before using the command-line setup below.
 
-## 🔑 Key Learnings
-
-**SQL Skills:**
-- Window functions (ROW_NUMBER, RANK)
-- CTEs and subqueries
-- JOIN operations across multiple tables
-- Aggregations with GROUP BY and HAVING
-
-**Power BI Skills:**
-- DAX measure creation (DIVIDE, AVERAGEX, FORMAT)
-- Star schema data modeling
-- Single-direction relationships
-- Conditional formatting rules
-
-**Business Analysis:**
-- Identifying operational bottlenecks
-- Root cause analysis for delivery delays
-- Data-driven recommendations
-
----
-
-## 📊 SQL Query Examples
-
-**Top performing stores by on-time delivery:**
-```sql
-SELECT 
-    store_area,
-    total_orders,
-    on_time_deliveries,
-    ROUND((on_time_deliveries * 100.0 / total_orders), 2) AS on_time_rate
-FROM vw_store_performance
-ORDER BY on_time_rate DESC
-LIMIT 5;
-```
-
-**Critical inventory alerts:**
-```sql
-SELECT 
-    store_area,
-    product_name,
-    current_stock,
-    optimal_stock,
-    days_until_stockout
-FROM vw_inventory_alerts
-WHERE alert_priority = 'Critical'
-ORDER BY days_until_stockout ASC;
-```
-
----
-
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - MySQL 8.0+
@@ -157,32 +80,19 @@ ORDER BY days_until_stockout ASC;
 - Python 3.8+ (optional, for data generation)
 
 ### Setup
-1. **Import SQL schema:**
-   ```bash
-   mysql -u root -p < sql/blinkit_chennai.sql
-   ```
+1. Extract `sql/blinkit_chennai.zip` if you need the SQL source.
+2. Import the extracted SQL script into MySQL.
+3. Open the Power BI file under `powerbi/` and refresh its data connection if required.
+4. Explore the dashboard using the available filters.
 
-2. **Open Power BI:**
-   - Open `powerbi/Blinkit_Chennai_Dashboard.pbix`
-   - Refresh data connection
+## Key Learnings
 
-3. **Explore dashboard:**
-   - Filter by date range or store
-   - Click visuals to cross-filter
+**SQL:** joins, aggregations, CTEs, window functions and business views.
 
----
+**Power BI:** DAX measures, analytical modeling, conditional formatting and cross-filtering.
 
-## 📫 Contact
+**Business Analysis:** translating operational signals into testable recommendations while separating observed results from assumptions.
 
-**Sanjay** | Chennai, India  
-📧 [sanjayyogesh9@gmail.com]  
-💼 [https://www.linkedin.com/in/sanjay-arlo]  
-🔗 [https://github.com/sanjay-arlo]
+## License
 
-**Open to Data Analyst opportunities**
-
----
-
-## 📝 License
-
-This project is open source and available under the MIT License.
+MIT License - see the repository license file for details.
